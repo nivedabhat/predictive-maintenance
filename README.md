@@ -82,7 +82,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ### To begin the initial setup and start Docker, run the following script in your terminal
 
 
-bash start.sh
+"bash start.sh"
 
 
 > This starts:
@@ -90,7 +90,7 @@ bash start.sh
 > - FastAPI app
 > - Kafka RUL producer
 > - Streamlit dashboard
----
+
 
 ### Verify Docker Startup
 ### Once Docker is successfully running, you should see a message like:
