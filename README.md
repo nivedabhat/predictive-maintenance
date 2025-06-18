@@ -61,9 +61,12 @@ Build a scalable, real-time predictive maintenance pipeline that:
                        ┌────────────┐
                        │ Dashboard  │
                        └────────────┘
+```text
+---
 
 
- Future Enhancements
+ ##  Future Enhancements
+
 - Add Prometheus + Grafana for monitoring
 - Add authentication for endpoints
 - Adaptive thresholds based on degradation
