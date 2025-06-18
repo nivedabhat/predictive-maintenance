@@ -82,7 +82,6 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ### 1 Create and Activate Virtual Environment
 
 ```bash
-cd ~/Downloads/"predictive-maintenance-dev 3"
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
