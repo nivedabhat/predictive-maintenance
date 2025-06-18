@@ -42,7 +42,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ```text
     ┌─────────────┐         ┌──────────────┐       ┌──────────────┐
     │ Spec Parser │ ──────▶ │ Rule Store   │◀────┐ │ PDF/HTML Docs│
-    └─────────────┘         └────┬─────────┘     └──────────────┘
+    └─────────────┘         └────┬─────────┘     └─└──────────── ─┘
                                   │
                                   ▼
                            ┌─────────────┐
@@ -50,7 +50,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
                            └────┬────────┘             │
                                 ▼                      │
                           ┌──────────────┐      ┌────────────┐
-                          │ Compliance   │────▶ │ Alerts Topic│
+                          │ Compliance   │────▶ │Alerts Topic│
                           │ Engine       │      └────────────┘
                           └────┬─────────┘
                                ▼
