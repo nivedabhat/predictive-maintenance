@@ -1,0 +1,86 @@
+version: '3.9'
+
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"       # Host access
+      - "29092:29092"     # Internal container access
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+
+  producer:
+    build:
+      context: ./producer
+    container_name: kafka_producer
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+      CSV_PATH: /app/data/prod copy.csv
+      FEATURE_JSON: /app/models/feature_cols.json
+    volumes:
+        - ./data:/app/data:ro
+        - ./fastapi_app/models:/app/models:ro
+  
+    restart: unless-stopped
+
+  fastapi_app:
+    build:
+      context: ./fastapi_app
+    container_name: fastapi_app
+    depends_on:
+      - kafka
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./fastapi_app/models:/app/models
+      - ./data:/app/data:rw
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+      MODEL_PATH: /app/models/rul_regressor.pkl
+      CLASSIFIER_PATH: /app/models/failure_classifier.pkl
+      SCALER_CLS_PATH: /app/models/scaler_cls.pkl
+      SCALER_REG_PATH: /app/models/scaler_reg.pkl
+      RUL_SCALER_PATH: /app/models/rul_scaler.pkl
+      FEATURE_COLS_PATH: /app/models/feature_cols.json
+      LE_PARAM_PATH: /app/models/le_param.pkl
+      LE_MODEL_PATH: /app/models/le_model.pkl
+      LE_EQUIP_PATH: /app/models/le_eq.pkl
+      SPECS_PATH: /app/data/final_clean_parameters.csv
+      DATA_PATH: /app/data/prod copy.csv
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: ./streamlit_dashboard
+    container_name: streamlit_dashboard
+    depends_on:
+      - fastapi_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit_dashboard:/app
+    environment:
+      FASTAPI_URL: http://fastapi_app:8000
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+    restart: on-failure
+

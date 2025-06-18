@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+jupyterlab
+joblib
+kafka-python
+pyyaml
+pdfminer.six>=20201018

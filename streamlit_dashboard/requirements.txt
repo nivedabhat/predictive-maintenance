@@ -1,0 +1,5 @@
+streamlit==1.24.1
+requests
+pandas
+altair
+kafka-python
