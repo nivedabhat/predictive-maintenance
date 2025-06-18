@@ -82,8 +82,9 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ### 1 Create and Activate Virtual Environment
 
 ```bash
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scriptsactivate
+cd ~/Downloads/"predictive-maintenance-dev 3"
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -92,7 +93,7 @@ pip install -r requirements.txt
 ### 2 Parse Spec PDF to Threshold Files
 
 ```bash
-python "pdf_spec_parser/spec_parser .py"
+python pdf_spec_parser/spec_parser.py
 ```
 
 This script parses a PDF to generate threshold `.csv` and `.json` files.
@@ -102,7 +103,7 @@ This script parses a PDF to generate threshold `.csv` and `.json` files.
 ### 3 Generate Synthetic Telemetry Data
 
 ```bash
-python notebook/"sythetic_data_gereation_time_series_model.py"
+python "notebook/sythetic_data gereation_time_series_model.py"
 ```
 
 This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
@@ -127,6 +128,7 @@ These are used by the FastAPI service.
 ### 5 Stream Data to Kafka
 
 ```bash
+source venv/bin/activate
 python notebook/rul_prod_data.py
 ```
 
