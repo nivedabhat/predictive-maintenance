@@ -62,6 +62,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
                        │ Dashboard  │
                        └────────────┘
 
+
  Future Enhancements
 - Add Prometheus + Grafana for monitoring
 - Add authentication for endpoints
@@ -83,6 +84,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 
 "bash start.sh"
+
 
 
 > This starts:
