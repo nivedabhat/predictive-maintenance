@@ -86,12 +86,14 @@ bash start.sh
   
 
 
-
+ ```
 > This starts:
 > - Kafka & Zookeeper
 > - FastAPI app
 > - Kafka RUL producer
 > - Streamlit dashboard
+
+ ```
 
 
 ### Verify Docker Startup
