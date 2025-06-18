@@ -38,7 +38,7 @@ services:
       CSV_PATH: /app/pdf_spec_parser/output/prod copy.csv
       FEATURE_JSON: /app/models/feature_cols.json
     volumes:
-        - ./pdf_spec_parser:/app/pdf_spec_parser/output:ro
+        - ./pdf_spec_parser/output:/app/pdf_spec_parser/output:ro
         - ./fastapi_app/models:/app/models:ro
   
     restart: unless-stopped
@@ -53,7 +53,7 @@ services:
       - "8000:8000"
     volumes:
       - ./fastapi_app/models:/app/models
-      - ./pdf_spec_parser:/app/pdf_spec_parser/output:rw
+      - ./pdf_spec_parser/output:/app/pdf_spec_parser/output:rw
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:29092
       MODEL_PATH: /app/models/rul_regressor.pkl
