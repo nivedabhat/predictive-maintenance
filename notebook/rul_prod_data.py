@@ -114,8 +114,8 @@ def generate_synthetic_timeseries_failure_only(
 
 if __name__ == "__main__":
     generate_synthetic_timeseries_failure_only(
-        input_csv="data/spec_parser/output/final_clean_parameters.csv",
-        output_csv="data/prod copy.csv",
+        input_csv="pdf_spec_parser/output/final_clean_parameters.csv",
+        output_csv="pdf_spec_parser/output/prod copy.csv",
         num_units_per_model=6,
         days=20,
         interval_minutes=60,
