@@ -10,9 +10,6 @@ python "notebook/sythetic_data gereation_time_series_model.py"
 python notebook/model.py
 source venv/bin/activate
 python notebook/rul_prod_data.py
-chmod +x start.sh
-bash start.sh
-
 
 # Docker commands to set up and run the application
 # docker ps               # to view running containers
