@@ -1,22 +1,25 @@
 import os
-import json
-import joblib
+import re
 import time
-import uvicorn
+import json
 import traceback
+from datetime import datetime
+from threading import Thread
+
+
+import joblib
+import uvicorn
 import pandas as pd
 import numpy as np
 from fastapi import FastAPI, Request, Query
 from fastapi.middleware.cors import CORSMiddleware 
 from kafka import KafkaConsumer, KafkaProducer
 from pydantic import BaseModel
-from threading import Thread
-from datetime import datetime
 from collections import defaultdict
 from sklearn.preprocessing import LabelEncoder
 from kafka.errors import NoBrokersAvailable
 from fastapi.responses import JSONResponse
-import re
+
 from sqlalchemy import create_engine, Column, String, Float, Integer, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
