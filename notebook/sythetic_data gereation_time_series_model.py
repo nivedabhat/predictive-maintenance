@@ -136,8 +136,8 @@ def generate_synthetic_timeseries(
 
 if __name__ == "__main__":
     generate_synthetic_timeseries(
-        input_csv="data/spec_parser/output/final_clean_parameters.csv",
-        output_csv="data/synthetic_timeseries_realistic_wide.csv",
+        input_csv="pdf_spec_parser/output/final_clean_parameters.csv",
+        output_csv="pdf_spec_parser/output/synthetic_timeseries_realistic_wide.csv",
         num_units_per_model=6,
         days=20,
         interval_minutes=60,
