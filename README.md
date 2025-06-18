@@ -64,13 +64,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 
 
- ##  Future Enhancements
 
-- Add Prometheus + Grafana for monitoring
-- Add authentication for endpoints
-- Adaptive thresholds based on degradation
-- Multilingual spec-sheet support
-- Unit tests and CI/CD integration
 
 
 
@@ -123,4 +117,10 @@ fastapi_app          |  Alert sent to Kafka: {'timestamp': '2025-06-09T11:28:49'
 
 ---
 
+ ##  Future Enhancements
 
+- Add Prometheus + Grafana for monitoring
+- Add authentication for endpoints
+- Adaptive thresholds based on degradation
+- Multilingual spec-sheet support
+- Unit tests and CI/CD integration
