@@ -35,10 +35,10 @@ services:
       - kafka
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:29092
-      CSV_PATH: /app/data/prod copy.csv
+      CSV_PATH: /app/pdf_spec_parser/output/prod copy.csv
       FEATURE_JSON: /app/models/feature_cols.json
     volumes:
-        - ./data:/app/data:ro
+        - ./data:/app/pdf_spec_parser/output:ro
         - ./fastapi_app/models:/app/models:ro
   
     restart: unless-stopped
@@ -53,7 +53,7 @@ services:
       - "8000:8000"
     volumes:
       - ./fastapi_app/models:/app/models
-      - ./data:/app/data:rw
+      - ./data:/app/pdf_spec_parser/output:rw
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka:29092
       MODEL_PATH: /app/models/rul_regressor.pkl
@@ -65,8 +65,8 @@ services:
       LE_PARAM_PATH: /app/models/le_param.pkl
       LE_MODEL_PATH: /app/models/le_model.pkl
       LE_EQUIP_PATH: /app/models/le_eq.pkl
-      SPECS_PATH: /app/data/final_clean_parameters.csv
-      DATA_PATH: /app/data/prod copy.csv
+      SPECS_PATH: /app/pdf_spec_parser/output/final_clean_parameters.csv
+      DATA_PATH: /app/pdf_spec_parser/output/prod copy.csv
     restart: unless-stopped
 
   dashboard:
