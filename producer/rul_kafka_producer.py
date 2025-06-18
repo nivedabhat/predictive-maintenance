@@ -9,7 +9,7 @@ from kafka.errors import NoBrokersAvailable
 # === CONFIGURATION ===
 KAFKA_BROKER = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:29092")
 TOPIC = os.getenv("KAFKA_TOPIC", "telemetry")
-CSV_PATH = os.getenv("CSV_PATH", "/app/data/prod.csv")
+CSV_PATH = os.getenv("CSV_PATH", "/app/pdf_spec_parser/output/prod copy.csv")
 SEND_INTERVAL = float(os.getenv("KAFKA_SEND_INTERVAL", 0.5))  # in seconds
 
 # === LOAD DATASET ===
