@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ### 2 Parse Spec PDF to Threshold Files
 
 ```bash
-python "data/spec_parser .py"
+python "pdf_spec_parser/spec_parser .py"
 ```
 
 This script parses a PDF to generate threshold `.csv` and `.json` files.
