@@ -9,3 +9,4 @@ joblib
 kafka-python
 pyyaml
 pdfminer.six>=20201018
+pdfplumber
