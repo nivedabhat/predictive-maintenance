@@ -79,16 +79,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ###   Setup Instructions
 
 
-### 1 Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-
-
-### 2 Create and Activate Virtual Environment
+### 1 Create and Activate Virtual Environment
 
 ```bash
 python -m venv venv
@@ -98,7 +89,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3 Parse Spec PDF to Threshold Files
+### 2 Parse Spec PDF to Threshold Files
 
 ```bash
 python "data/Spec parser .py"
@@ -108,7 +99,7 @@ This script parses a PDF to generate threshold `.csv` and `.json` files.
 
 ---
 
-### 4 Generate Synthetic Telemetry Data
+### 3 Generate Synthetic Telemetry Data
 
 ```bash
 python notebook/"Sythetic data gereation_time_series_model.py"
@@ -118,7 +109,7 @@ This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
 
 ---
 
-### 5 Train the ML Models
+### 4 Train the ML Models
 
 ```bash
 python notebook/Model.py
@@ -133,7 +124,7 @@ These are used by the FastAPI service.
 
 ---
 
-### 6 Stream Data to Kafka
+### 5 Stream Data to Kafka
 
 ```bash
 python notebook/rul_prod_data.py
@@ -143,7 +134,7 @@ This streams telemetry data to Kafka topic prod copy.csv
 
 ---
 
-### 7 Run the Entire System via Docker
+### 6 Run the Entire System via Docker
 
 ```bash
 bash start.sh
@@ -180,7 +171,7 @@ NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
 
 ##  Notes
 
-- Make sure you run steps 3–6 before launching Docker.
+- Make sure you run steps 2–5 before launching Docker.
 - `.pkl` files and feature configs must exist before Docker builds.
 - Kafka must be running before starting the Kafka data producer.
 
