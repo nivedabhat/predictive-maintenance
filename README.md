@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ### 2 Parse Spec PDF to Threshold Files
 
 ```bash
-python "data/Spec parser .py"
+python "data/spec_parser .py"
 ```
 
 This script parses a PDF to generate threshold `.csv` and `.json` files.
@@ -102,7 +102,7 @@ This script parses a PDF to generate threshold `.csv` and `.json` files.
 ### 3 Generate Synthetic Telemetry Data
 
 ```bash
-python notebook/"Sythetic data gereation_time_series_model.py"
+python notebook/"sythetic_data_gereation_time_series_model.py"
 ```
 
 This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
@@ -112,7 +112,7 @@ This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
 ### 4 Train the ML Models
 
 ```bash
-python notebook/Model.py
+python notebook/model.py
 ```
 
 Outputs:
