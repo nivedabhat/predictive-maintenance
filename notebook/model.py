@@ -1,14 +1,19 @@
 import os
+import json
+import warnings
+
 import pandas as pd
 import numpy as np
 import joblib
-import json
-import warnings
+
+
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBRegressor
 from sklearn.metrics import classification_report, mean_absolute_error, mean_squared_error
+
+from xgboost import XGBRegressor
+
 
 warnings.filterwarnings("ignore")
 
@@ -155,8 +160,14 @@ print("\nStarting XGBoost hyperparameter tuning for RUL regression...")
 reg_base = XGBRegressor(objective='reg:squarederror', random_state=42, verbosity=0)
 
 search = RandomizedSearchCV(
-    reg_base, param_grid, n_iter=10, scoring='neg_mean_absolute_error',
-    cv=3, verbose=1, n_jobs=-1, random_state=42
+    reg_base,
+    param_grid,
+    n_iter=10,
+    scoring='neg_mean_absolute_error',
+    cv=3,
+    verbose=1,
+    n_jobs=-1,
+    random_state=42
 )
 
 search.fit(X_train_r, y_train_r)
@@ -188,5 +199,5 @@ mae_pct = 100 * mae / y_true.max()
 print(f"\nRUL Regression MAE: {mae:.2f}, RMSE: {rmse:.2f}, MAE%: {mae_pct:.2f}%")
 
 # --- Save feature columns ---
-with open(os.path.join(MODEL_DIR, "feature_cols.json"), "w") as f:
+with open(os.path.join(MODEL_DIR, "feature_cols.json"), "w", encoding="utf-8") as f:
     json.dump(feature_cols, f)
