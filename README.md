@@ -123,9 +123,4 @@ fastapi_app          |  Alert sent to Kafka: {'timestamp': '2025-06-09T11:28:49'
 
 ---
 
-##  Notes
 
-- `.pkl` files and feature configs must exist before Docker builds.
-- Kafka must be running before starting the Kafka data producer.
-
----
