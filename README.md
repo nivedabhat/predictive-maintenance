@@ -76,72 +76,22 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 ---
 
-###   Setup Instructions
+#   Setup Instructions
 
 
-### 1 Create and Activate Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
----
-
-### 2 Parse Spec PDF to Threshold Files
+### To begin the initial setup and start Docker, run the following script in your terminal
 
 ```bash
-python pdf_spec_parser/spec_parser.py
-```
-
-This script parses a PDF to generate threshold `.csv` and `.json` files.
-
----
-
-### 3 Generate Synthetic Telemetry Data
-
-```bash
-python "notebook/sythetic_data gereation_time_series_model.py"
-```
-
-This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
-
----
-
-### 4 Train the ML Models
-
-```bash
-python notebook/model.py
-```
-
-Outputs:
-- failure_classifier.pkl, rul_regressor.pkl, le_model.pkl, rul_scaler.pkl
-- feature_config.json
-- Scalers and encoders
-
-These are used by the FastAPI service.
-
----
-
-### 5 Stream Data to Kafka
-
-```bash
-source venv/bin/activate
-python notebook/rul_prod_data.py
-```
-
-This streams telemetry data to Kafka topic prod copy.csv
-
----
-
-### 6 Run the Entire System via Docker
-
-```bash
-chmod +x start.sh
 bash start.sh
+```
 
-NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
+---
+
+### Verify Docker Startup
+### Once Docker is successfully running, you should see a message like:
+
+```bash
+fastapi_app          |  Alert sent to Kafka: {'timestamp': '2025-06-09T11:28:49', 'device_id': '3GBA_112_410-ADDIN_Calc_UNIT5', 'parameter': 'rated_output_p_n', 'value': -0.18, 'reason': 'Below lower bound (0.7000000000000002)'}python pdf_spec_parser/spec_parser.py
 ```
 
 > This starts:
@@ -150,7 +100,6 @@ NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
 > - Kafka RUL producer
 > - Streamlit dashboard
 
----
 
 ##  Access the Application
 
@@ -158,6 +107,7 @@ NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
 |----------------------|--------------------------------|
 | FastAPI API Docs     | http://localhost:8000/docs     |
 | Streamlit Dashboard  | http://localhost:8501          |
+
 
 ---
 
@@ -173,7 +123,6 @@ NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
 
 ##  Notes
 
-- Make sure you run steps 2–5 before launching Docker.
 - `.pkl` files and feature configs must exist before Docker builds.
 - Kafka must be running before starting the Kafka data producer.
 
