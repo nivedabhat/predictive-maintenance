@@ -71,9 +71,9 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 
 
-##  Setup Instructions
+ **Setup Instructions**
 
-### 1 Clone the Repository
+### 1 Clone the Repository 
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -82,7 +82,19 @@ cd your-repo-name
 
 ---
 
-### 2️ Create and Activate Virtual Environment
+###   Setup Instructions
+
+
+### 1 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+
+
+### 2 Create and Activate Virtual Environment
 
 ```bash
 python -m venv venv
@@ -92,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️ Parse Spec PDF to Threshold Files
+### 3 Parse Spec PDF to Threshold Files
 
 ```bash
 python "data/Spec parser .py"
@@ -102,7 +114,7 @@ This script parses a PDF to generate threshold `.csv` and `.json` files.
 
 ---
 
-### 4️ Generate Synthetic Telemetry Data
+### 4 Generate Synthetic Telemetry Data
 
 ```bash
 python notebook/"Sythetic data gereation_time_series_model.py"
@@ -112,7 +124,7 @@ This produces `synthetic_timeseries_realistic_wide.csv` used to train models.
 
 ---
 
-### 5️ Train the ML Models
+### 5 Train the ML Models
 
 ```bash
 python notebook/Model.py
@@ -127,7 +139,7 @@ These are used by the FastAPI service.
 
 ---
 
-### 6️ Stream Data to Kafka
+### 6 Stream Data to Kafka
 
 ```bash
 python notebook/rul_prod_data.py
@@ -137,7 +149,7 @@ This streams telemetry data to Kafka topic prod copy.csv
 
 ---
 
-### 7️ Run the Entire System via Docker
+### 7 Run the Entire System via Docker
 
 ```bash
 bash start.sh
