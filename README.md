@@ -96,12 +96,13 @@ bash start.sh
  ```
 
 
-### Verify Docker Startup
-### Once Docker is successfully running, you should see a message like:
+### After starting Docker, check the terminal or logs for a message like:
 
 ```bash
 fastapi_app          |  Alert sent to Kafka: {'timestamp': '2025-06-09T11:28:49', 'device_id': '3GBA_112_410-ADDIN_Calc_UNIT5', 'parameter': 'rated_output_p_n', 'value': -0.18, 'reason': 'Below lower bound (0.7000000000000002)'}python pdf_spec_parser/spec_parser.py
 ```
+
+####  This confirms a successful startup
 
 ##  Access the Application
 
