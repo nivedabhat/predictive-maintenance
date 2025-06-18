@@ -118,8 +118,8 @@ class CleanSpecParser:
 
 if __name__ == "__main__":
     parser = CleanSpecParser(
-        pdf_folder="/Users/niveda/Desktop/PredictiveMaintenanceProject/pdf_spec_parser/sample_pdfs",
-        output_folder="/Users/niveda/Desktop/PredictiveMaintenanceProject/pdf_spec_parser/output"
+        pdf_folder="pdf_spec_parser/sample_pdfs",
+        output_folder="pdf_spec_parser/output"
     )
     parser.process()
 
