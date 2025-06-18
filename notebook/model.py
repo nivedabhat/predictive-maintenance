@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 # === CONFIG ===
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(PROJECT_DIR, "../data/synthetic_timeseries_realistic_wide.csv")  # Update path if needed
+DATA_PATH = os.path.join(PROJECT_DIR, "pdf_spec_parser/output/synthetic_timeseries_realistic_wide.csv")  # Update path if needed
 THRESHOLD_PATH = os.path.join(PROJECT_DIR, "../data/spec_parser/output/final_clean_parameters.csv")
 MODEL_DIR = os.path.join(PROJECT_DIR, "../fastapi_app/models")
 os.makedirs(MODEL_DIR, exist_ok=True)
