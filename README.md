@@ -137,6 +137,7 @@ This streams telemetry data to Kafka topic prod copy.csv
 ### 6 Run the Entire System via Docker
 
 ```bash
+chmod +x start.sh
 bash start.sh
 
 NOTE: Ensure the name 'predictive-maintenance' matches your image/tag prefix
