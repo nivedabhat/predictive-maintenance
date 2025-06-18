@@ -24,7 +24,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer              | Tools Used                              |
 |-------------------|------------------------------------------|
@@ -71,14 +71,8 @@ Build a scalable, real-time predictive maintenance pipeline that:
 
 
 
- **Setup Instructions**
-
-### 1 Clone the Repository 
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
+ 
+ ```
 
 ---
 
