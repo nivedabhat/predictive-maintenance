@@ -79,7 +79,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
 ### To begin the initial setup and start Docker, run the following script in your terminal
 
 
-"bash start.sh"
+   "bash start.sh"
 
 
 
