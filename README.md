@@ -61,8 +61,7 @@ Build a scalable, real-time predictive maintenance pipeline that:
                        ┌────────────┐
                        │ Dashboard  │
                        └────────────┘
-```text
----
+
 
 
  ##  Future Enhancements
