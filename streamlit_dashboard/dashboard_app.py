@@ -198,13 +198,13 @@ if not df_history.empty:
 
         # Caption for layman understanding
         st.caption("""
-        ℹ **What you're seeing**: These trends show how equipment sensors behave over time.
+         **What you're seeing**: These trends show how equipment sensors behave over time.
         Sudden spikes or drops may indicate anomalies or early warnings. Hover over points for values.
         """)
 
         # Downloadable CSV
         st.download_button(
-            "⬇ Download CSV",
+            " Download CSV",
             df_history.to_csv(index=False),
             file_name=f"{selected_device}_telemetry.csv"
         )
