@@ -217,7 +217,7 @@ else:
 
 # Alerts from Kafka tab
 with tabs[3]:
-    st.subheader(" Alerts from Kafka (`alerts` topic)`")
+    st.subheader(" Alerts from Kafka (`alerts` topic)")
 
     # Fetch and show raw alert count
     kafka_alerts = consume_kafka_topic(ALERT_TOPIC)
