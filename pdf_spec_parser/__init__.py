@@ -1,0 +1,1 @@
+from spec_parser.pdf_extractor import some_function

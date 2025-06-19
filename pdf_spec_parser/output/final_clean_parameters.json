@@ -1,0 +1,906 @@
+[
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "160MLB",
+        "unit": "4",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Rated output P N",
+        "value": "15",
+        "unit": "kW",
+        "lower": 12.0,
+        "upper": 18.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "1460",
+        "unit": "rpm",
+        "lower": 1457.0,
+        "upper": 1463.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Rated current I N",
+        "value": "28.4",
+        "unit": "A",
+        "lower": 25.4,
+        "upper": 31.4
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "98",
+        "unit": "Nm",
+        "lower": 95.0,
+        "upper": 101.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "10",
+        "unit": "s",
+        "lower": 7.0,
+        "upper": 13.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "16",
+        "unit": "s",
+        "lower": 13.0,
+        "upper": 19.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.1025",
+        "unit": "kg-m2",
+        "lower": -2.8975,
+        "upper": 3.1025
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "38",
+        "unit": "kg",
+        "lower": 35.0,
+        "upper": 41.0
+    },
+    {
+        "model_id": "3GBA 162 420-ADCIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "134",
+        "unit": "kg",
+        "lower": 131.0,
+        "upper": 137.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "112MLA",
+        "unit": "4",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Rated output P N",
+        "value": "3.7",
+        "unit": "kW",
+        "lower": 0.7000000000000002,
+        "upper": 6.7
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "1450",
+        "unit": "rpm",
+        "lower": 1447.0,
+        "upper": 1453.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Rated current I N",
+        "value": "7.7",
+        "unit": "A",
+        "lower": 4.7,
+        "upper": 10.7
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "24.4",
+        "unit": "Nm",
+        "lower": 21.4,
+        "upper": 27.4
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "7",
+        "unit": "s",
+        "lower": 4.0,
+        "upper": 10.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "12",
+        "unit": "s",
+        "lower": 9.0,
+        "upper": 15.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.01542",
+        "unit": "kg-m2",
+        "lower": -2.98458,
+        "upper": 3.01542
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "13",
+        "unit": "kg",
+        "lower": 10.0,
+        "upper": 16.0
+    },
+    {
+        "model_id": "3GBA 112 410-ADDIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "50",
+        "unit": "kg",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "160MLA",
+        "unit": "2",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Rated output P N",
+        "value": "11",
+        "unit": "kW",
+        "lower": 8.0,
+        "upper": 14.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "2925",
+        "unit": "rpm",
+        "lower": 2922.0,
+        "upper": 2928.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Rated current I N",
+        "value": "20.1",
+        "unit": "A",
+        "lower": 17.1,
+        "upper": 23.1
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "36",
+        "unit": "Nm",
+        "lower": 33.0,
+        "upper": 39.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "20",
+        "unit": "s",
+        "lower": 17.0,
+        "upper": 23.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "32",
+        "unit": "s",
+        "lower": 29.0,
+        "upper": 35.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.0415",
+        "unit": "kg-m2",
+        "lower": -2.9585,
+        "upper": 3.0415
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "22",
+        "unit": "kg",
+        "lower": 19.0,
+        "upper": 25.0
+    },
+    {
+        "model_id": "3GBA 161 410-ADCIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "105",
+        "unit": "kg",
+        "lower": 102.0,
+        "upper": 108.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "132SMA",
+        "unit": "4",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Rated output P N",
+        "value": "5.5",
+        "unit": "kW",
+        "lower": 2.5,
+        "upper": 8.5
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "1460",
+        "unit": "rpm",
+        "lower": 1457.0,
+        "upper": 1463.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Rated current I N",
+        "value": "11.1",
+        "unit": "A",
+        "lower": 8.1,
+        "upper": 14.1
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "36",
+        "unit": "Nm",
+        "lower": 33.0,
+        "upper": 39.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "11",
+        "unit": "s",
+        "lower": 8.0,
+        "upper": 14.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "18",
+        "unit": "s",
+        "lower": 15.0,
+        "upper": 21.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.03505",
+        "unit": "kg-m2",
+        "lower": -2.96495,
+        "upper": 3.03505
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "18",
+        "unit": "kg",
+        "lower": 15.0,
+        "upper": 21.0
+    },
+    {
+        "model_id": "3GBA 132 210-ADDIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "72",
+        "unit": "kg",
+        "lower": 69.0,
+        "upper": 75.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "180MLA",
+        "unit": "2",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Rated output P N",
+        "value": "22",
+        "unit": "kW",
+        "lower": 19.0,
+        "upper": 25.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "2932",
+        "unit": "rpm",
+        "lower": 2929.0,
+        "upper": 2935.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Rated current I N",
+        "value": "38",
+        "unit": "A",
+        "lower": 35.0,
+        "upper": 41.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "72",
+        "unit": "Nm",
+        "lower": 69.0,
+        "upper": 75.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "20",
+        "unit": "s",
+        "lower": 17.0,
+        "upper": 23.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "32",
+        "unit": "s",
+        "lower": 29.0,
+        "upper": 35.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.0679",
+        "unit": "kg-m2",
+        "lower": -2.9321,
+        "upper": 3.0679
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "36",
+        "unit": "kg",
+        "lower": 33.0,
+        "upper": 39.0
+    },
+    {
+        "model_id": "3GBA 181 410-ADCIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "152",
+        "unit": "kg",
+        "lower": 149.0,
+        "upper": 155.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "200MLB",
+        "unit": "6",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Rated output P N",
+        "value": "22",
+        "unit": "kW",
+        "lower": 19.0,
+        "upper": 25.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "986",
+        "unit": "rpm",
+        "lower": 983.0,
+        "upper": 989.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Rated current I N",
+        "value": "42.3",
+        "unit": "A",
+        "lower": 39.3,
+        "upper": 45.3
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "213",
+        "unit": "Nm",
+        "lower": 210.0,
+        "upper": 216.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "11",
+        "unit": "s",
+        "lower": 8.0,
+        "upper": 14.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "18",
+        "unit": "s",
+        "lower": 15.0,
+        "upper": 21.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.585",
+        "unit": "kg-m2",
+        "lower": -2.415,
+        "upper": 3.585
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "98",
+        "unit": "kg",
+        "lower": 95.0,
+        "upper": 101.0
+    },
+    {
+        "model_id": "3GBA 203 420-ADDIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "263",
+        "unit": "kg",
+        "lower": 260.0,
+        "upper": 266.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "180MLA",
+        "unit": "6",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Rated output P N",
+        "value": "15",
+        "unit": "kW",
+        "lower": 12.0,
+        "upper": 18.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Rated voltage U N 415 VD +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "972",
+        "unit": "rpm",
+        "lower": 969.0,
+        "upper": 975.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Rated current I N",
+        "value": "31.8",
+        "unit": "A",
+        "lower": 28.8,
+        "upper": 34.8
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "147",
+        "unit": "Nm",
+        "lower": 144.0,
+        "upper": 150.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "20",
+        "unit": "s",
+        "lower": 17.0,
+        "upper": 23.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "33",
+        "unit": "s",
+        "lower": 30.0,
+        "upper": 36.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.212",
+        "unit": "kg-m2",
+        "lower": -2.788,
+        "upper": 3.212
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "55",
+        "unit": "kg",
+        "lower": 52.0,
+        "upper": 58.0
+    },
+    {
+        "model_id": "3GBA 183 410-ADDIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "190",
+        "unit": "kg",
+        "lower": 187.0,
+        "upper": 193.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Type/Frame M2BAX",
+        "value": "100LA",
+        "unit": "8",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Rated output P N",
+        "value": "0.75",
+        "unit": "kW",
+        "lower": -2.25,
+        "upper": 3.75
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Rated voltage U N 415 VY +10,",
+        "value": "-10",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Rated frequency f N 50 Hz +5,",
+        "value": "-5",
+        "unit": "%",
+        "lower": null,
+        "upper": null
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Rated speed n N",
+        "value": "710",
+        "unit": "rpm",
+        "lower": 707.0,
+        "upper": 713.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Rated current I N",
+        "value": "2.6",
+        "unit": "A",
+        "lower": -0.3999999999999999,
+        "upper": 5.6
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Nominal torque T N",
+        "value": "10.1",
+        "unit": "Nm",
+        "lower": 7.1,
+        "upper": 13.1
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "PLL determined from residual loss 100 2.6",
+        "value": "66.2",
+        "unit": "0.61",
+        "lower": 63.2,
+        "upper": 69.2
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Thermal withstand time hot",
+        "value": "21",
+        "unit": "s",
+        "lower": 18.0,
+        "upper": 24.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Thermal withstand time cold",
+        "value": "33",
+        "unit": "s",
+        "lower": 30.0,
+        "upper": 36.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Ambient temperature",
+        "value": "50",
+        "unit": "\u00b0C",
+        "lower": 47.0,
+        "upper": 53.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Altitude",
+        "value": "1000",
+        "unit": "m.a.s.l.",
+        "lower": 997.0,
+        "upper": 1003.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Moment of inertia J = \u00bc GD2",
+        "value": "0.0072",
+        "unit": "kg-m2",
+        "lower": -2.9928,
+        "upper": 3.0072
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Weight of rotor",
+        "value": "7",
+        "unit": "kg",
+        "lower": 4.0,
+        "upper": 10.0
+    },
+    {
+        "model_id": "3GBA 104 510-ASCIN Calc",
+        "parameter": "Total weight of motor",
+        "value": "30",
+        "unit": "kg",
+        "lower": 27.0,
+        "upper": 33.0
+    }
+]

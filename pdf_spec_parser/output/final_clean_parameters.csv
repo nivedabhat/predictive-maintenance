@@ -1,0 +1,114 @@
+model_id,parameter,value,unit,lower,upper
+3GBA 162 420-ADCIN Calc,Type/Frame M2BAX,160MLB,4,,
+3GBA 162 420-ADCIN Calc,Rated output P N,15,kW,12.0,18.0
+3GBA 162 420-ADCIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 162 420-ADCIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 162 420-ADCIN Calc,Rated speed n N,1460,rpm,1457.0,1463.0
+3GBA 162 420-ADCIN Calc,Rated current I N,28.4,A,25.4,31.4
+3GBA 162 420-ADCIN Calc,Nominal torque T N,98,Nm,95.0,101.0
+3GBA 162 420-ADCIN Calc,Thermal withstand time hot,10,s,7.0,13.0
+3GBA 162 420-ADCIN Calc,Thermal withstand time cold,16,s,13.0,19.0
+3GBA 162 420-ADCIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 162 420-ADCIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 162 420-ADCIN Calc,Moment of inertia J = ¼ GD2,0.1025,kg-m2,-2.8975,3.1025
+3GBA 162 420-ADCIN Calc,Weight of rotor,38,kg,35.0,41.0
+3GBA 162 420-ADCIN Calc,Total weight of motor,134,kg,131.0,137.0
+3GBA 112 410-ADDIN Calc,Type/Frame M2BAX,112MLA,4,,
+3GBA 112 410-ADDIN Calc,Rated output P N,3.7,kW,0.7000000000000002,6.7
+3GBA 112 410-ADDIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 112 410-ADDIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 112 410-ADDIN Calc,Rated speed n N,1450,rpm,1447.0,1453.0
+3GBA 112 410-ADDIN Calc,Rated current I N,7.7,A,4.7,10.7
+3GBA 112 410-ADDIN Calc,Nominal torque T N,24.4,Nm,21.4,27.4
+3GBA 112 410-ADDIN Calc,Thermal withstand time hot,7,s,4.0,10.0
+3GBA 112 410-ADDIN Calc,Thermal withstand time cold,12,s,9.0,15.0
+3GBA 112 410-ADDIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 112 410-ADDIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 112 410-ADDIN Calc,Moment of inertia J = ¼ GD2,0.01542,kg-m2,-2.98458,3.01542
+3GBA 112 410-ADDIN Calc,Weight of rotor,13,kg,10.0,16.0
+3GBA 112 410-ADDIN Calc,Total weight of motor,50,kg,47.0,53.0
+3GBA 161 410-ADCIN Calc,Type/Frame M2BAX,160MLA,2,,
+3GBA 161 410-ADCIN Calc,Rated output P N,11,kW,8.0,14.0
+3GBA 161 410-ADCIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 161 410-ADCIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 161 410-ADCIN Calc,Rated speed n N,2925,rpm,2922.0,2928.0
+3GBA 161 410-ADCIN Calc,Rated current I N,20.1,A,17.1,23.1
+3GBA 161 410-ADCIN Calc,Nominal torque T N,36,Nm,33.0,39.0
+3GBA 161 410-ADCIN Calc,Thermal withstand time hot,20,s,17.0,23.0
+3GBA 161 410-ADCIN Calc,Thermal withstand time cold,32,s,29.0,35.0
+3GBA 161 410-ADCIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 161 410-ADCIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 161 410-ADCIN Calc,Moment of inertia J = ¼ GD2,0.0415,kg-m2,-2.9585,3.0415
+3GBA 161 410-ADCIN Calc,Weight of rotor,22,kg,19.0,25.0
+3GBA 161 410-ADCIN Calc,Total weight of motor,105,kg,102.0,108.0
+3GBA 132 210-ADDIN Calc,Type/Frame M2BAX,132SMA,4,,
+3GBA 132 210-ADDIN Calc,Rated output P N,5.5,kW,2.5,8.5
+3GBA 132 210-ADDIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 132 210-ADDIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 132 210-ADDIN Calc,Rated speed n N,1460,rpm,1457.0,1463.0
+3GBA 132 210-ADDIN Calc,Rated current I N,11.1,A,8.1,14.1
+3GBA 132 210-ADDIN Calc,Nominal torque T N,36,Nm,33.0,39.0
+3GBA 132 210-ADDIN Calc,Thermal withstand time hot,11,s,8.0,14.0
+3GBA 132 210-ADDIN Calc,Thermal withstand time cold,18,s,15.0,21.0
+3GBA 132 210-ADDIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 132 210-ADDIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 132 210-ADDIN Calc,Moment of inertia J = ¼ GD2,0.03505,kg-m2,-2.96495,3.03505
+3GBA 132 210-ADDIN Calc,Weight of rotor,18,kg,15.0,21.0
+3GBA 132 210-ADDIN Calc,Total weight of motor,72,kg,69.0,75.0
+3GBA 181 410-ADCIN Calc,Type/Frame M2BAX,180MLA,2,,
+3GBA 181 410-ADCIN Calc,Rated output P N,22,kW,19.0,25.0
+3GBA 181 410-ADCIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 181 410-ADCIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 181 410-ADCIN Calc,Rated speed n N,2932,rpm,2929.0,2935.0
+3GBA 181 410-ADCIN Calc,Rated current I N,38,A,35.0,41.0
+3GBA 181 410-ADCIN Calc,Nominal torque T N,72,Nm,69.0,75.0
+3GBA 181 410-ADCIN Calc,Thermal withstand time hot,20,s,17.0,23.0
+3GBA 181 410-ADCIN Calc,Thermal withstand time cold,32,s,29.0,35.0
+3GBA 181 410-ADCIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 181 410-ADCIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 181 410-ADCIN Calc,Moment of inertia J = ¼ GD2,0.0679,kg-m2,-2.9321,3.0679
+3GBA 181 410-ADCIN Calc,Weight of rotor,36,kg,33.0,39.0
+3GBA 181 410-ADCIN Calc,Total weight of motor,152,kg,149.0,155.0
+3GBA 203 420-ADDIN Calc,Type/Frame M2BAX,200MLB,6,,
+3GBA 203 420-ADDIN Calc,Rated output P N,22,kW,19.0,25.0
+3GBA 203 420-ADDIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 203 420-ADDIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 203 420-ADDIN Calc,Rated speed n N,986,rpm,983.0,989.0
+3GBA 203 420-ADDIN Calc,Rated current I N,42.3,A,39.3,45.3
+3GBA 203 420-ADDIN Calc,Nominal torque T N,213,Nm,210.0,216.0
+3GBA 203 420-ADDIN Calc,Thermal withstand time hot,11,s,8.0,14.0
+3GBA 203 420-ADDIN Calc,Thermal withstand time cold,18,s,15.0,21.0
+3GBA 203 420-ADDIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 203 420-ADDIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 203 420-ADDIN Calc,Moment of inertia J = ¼ GD2,0.585,kg-m2,-2.415,3.585
+3GBA 203 420-ADDIN Calc,Weight of rotor,98,kg,95.0,101.0
+3GBA 203 420-ADDIN Calc,Total weight of motor,263,kg,260.0,266.0
+3GBA 183 410-ADDIN Calc,Type/Frame M2BAX,180MLA,6,,
+3GBA 183 410-ADDIN Calc,Rated output P N,15,kW,12.0,18.0
+3GBA 183 410-ADDIN Calc,"Rated voltage U N 415 VD +10,",-10,%,,
+3GBA 183 410-ADDIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 183 410-ADDIN Calc,Rated speed n N,972,rpm,969.0,975.0
+3GBA 183 410-ADDIN Calc,Rated current I N,31.8,A,28.8,34.8
+3GBA 183 410-ADDIN Calc,Nominal torque T N,147,Nm,144.0,150.0
+3GBA 183 410-ADDIN Calc,Thermal withstand time hot,20,s,17.0,23.0
+3GBA 183 410-ADDIN Calc,Thermal withstand time cold,33,s,30.0,36.0
+3GBA 183 410-ADDIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 183 410-ADDIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 183 410-ADDIN Calc,Moment of inertia J = ¼ GD2,0.212,kg-m2,-2.788,3.212
+3GBA 183 410-ADDIN Calc,Weight of rotor,55,kg,52.0,58.0
+3GBA 183 410-ADDIN Calc,Total weight of motor,190,kg,187.0,193.0
+3GBA 104 510-ASCIN Calc,Type/Frame M2BAX,100LA,8,,
+3GBA 104 510-ASCIN Calc,Rated output P N,0.75,kW,-2.25,3.75
+3GBA 104 510-ASCIN Calc,"Rated voltage U N 415 VY +10,",-10,%,,
+3GBA 104 510-ASCIN Calc,"Rated frequency f N 50 Hz +5,",-5,%,,
+3GBA 104 510-ASCIN Calc,Rated speed n N,710,rpm,707.0,713.0
+3GBA 104 510-ASCIN Calc,Rated current I N,2.6,A,-0.3999999999999999,5.6
+3GBA 104 510-ASCIN Calc,Nominal torque T N,10.1,Nm,7.1,13.1
+3GBA 104 510-ASCIN Calc,PLL determined from residual loss 100 2.6,66.2,0.61,63.2,69.2
+3GBA 104 510-ASCIN Calc,Thermal withstand time hot,21,s,18.0,24.0
+3GBA 104 510-ASCIN Calc,Thermal withstand time cold,33,s,30.0,36.0
+3GBA 104 510-ASCIN Calc,Ambient temperature,50,°C,47.0,53.0
+3GBA 104 510-ASCIN Calc,Altitude,1000,m.a.s.l.,997.0,1003.0
+3GBA 104 510-ASCIN Calc,Moment of inertia J = ¼ GD2,0.0072,kg-m2,-2.9928,3.0072
+3GBA 104 510-ASCIN Calc,Weight of rotor,7,kg,4.0,10.0
+3GBA 104 510-ASCIN Calc,Total weight of motor,30,kg,27.0,33.0
