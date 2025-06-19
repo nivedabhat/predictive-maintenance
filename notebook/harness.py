@@ -84,7 +84,7 @@ mae_pct = 100 * mae / y_true_rul.max()
 
 print(f"\n RUL MAE: {mae:.2f} hrs, RMSE: {rmse:.2f}, MAE%: {mae_pct:.2f}%")
 
-# Optional: Plot predicted vs true RUL
+#  Plot predicted vs true RUL
 plt.figure(figsize=(8,4))
 plt.plot(y_true_rul.values[:100], label='True RUL')
 plt.plot(y_pred_rul[:100], label='Predicted RUL', alpha=0.7)
